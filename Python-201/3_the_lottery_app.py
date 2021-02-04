@@ -17,7 +17,7 @@ def menu():
     #print out the winnings
     matched_numbers = user_numbers.intersection(lottery_numbers)
     winning_price = 100 ** len(matched_numbers)
-    print(f"Your matched numbers: {matched_numbers}, You Won ${winning_price}.")
+    print(f"Your matched numbers: {matched_numbers}.Congrates, You have Won ${winning_price}.")
 
 
 #1. User can pick 6 numbers
